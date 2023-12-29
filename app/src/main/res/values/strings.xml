@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="Wt">Weight in Kg</string>
+    <string name="HtFt">Height in Feet</string>
+    <string name="HtIn">Height In Inches</string>
+    <string name="result">Result</string>
+    <string name="Ow">You are Overweight</string>
+    <string name="Uw">You are Underweight</string>
+    <string name="Nm">You are Healthy</string>
+    <string name="DefaultDouble">00.00</string>
+</resources>

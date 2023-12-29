@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/MainLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:hapticFeedbackEnabled="true">
+
+    <EditText
+        android:id="@+id/EdtWt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/Wt"
+        android:hint="@string/Wt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:minEms="10"
+        android:textColorHint="#546E7A">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EdtHtFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/HtFt"
+        android:hint="@string/HtFt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:minEms="10"
+        android:textColorHint="#546E7A">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EdtHtIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/HtIn"
+        android:hint="@string/HtIn"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:minEms="10"
+        android:textColorHint="#546E7A">
+
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18sp"
+        android:hapticFeedbackEnabled="true"
+        android:paddingHorizontal="50sp"
+        android:layout_marginVertical="20sp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/VwBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/DefaultDouble"
+        android:textSize="48sp"
+        android:backgroundTint="#00BCD4" />
+
+    <TextView
+        android:id="@+id/VwResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/result"
+        android:textAlignment="center"
+        android:textColorHint="#78909C"
+        android:textSize="28sp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
